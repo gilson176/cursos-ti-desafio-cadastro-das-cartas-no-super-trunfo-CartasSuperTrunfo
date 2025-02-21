@@ -1,55 +1,85 @@
 #include <stdio.h>
+#include <stdio.h>
 
 int main(){
 
-    printf("Super Trunfo - paises\n ");
+printf("Super Trunfo - paises\n");
 
-char estado;
-char codigodacarta[20];
-char nomedacidade[20];
-int populacao;
-float areaemkm2;
-float pib;
-int numerosdepontosturisticos;
+char Estado1;
+char Codigodacarta1[20];
+char Nomedacidade1[20];
+int Populacao1;
+float Areaemkm1;
+float Pib1;
+int Numerosdepontosturisticos1;
 
-printf("Digite a Letra do Estado\n");
-scanf("%c", &estado);
+printf("Digite a Letra do Estado \n");
+scanf("%c", &Estado1);
 
-printf("Digite o Codigo da Carta\n ");
-scanf("%s", &codigodacarta);
+printf("Digite o Codigo da Carta \n");
+scanf("%s", &Codigodacarta1);
 
-printf("Digite o Nome da Cidade\n");
-scanf("%s", &nomedacidade);
+printf("Digite o Nome da Cidade \n");
+scanf("%s", &Nomedacidade1);
 
-printf("Digite a População\n");
-scanf("%d",&populacao);
+printf("Digite a Populacao \n");
+scanf("%d",&Populacao1);
 
 printf("Digite area em Km2\n");
-scanf("%f", &areaemkm2);
+scanf("%f", &Areaemkm1);
 
-printf("Digite o Pib\n");
-scanf("%f", &pib);
+printf("Digite o Pib \n");
+scanf("%f", &Pib1);
 
-printf("Digite os Numeros de Pontos Turisticos\n");
-scanf("%d", &numerosdepontosturisticos);
+printf("Digite os Numeros de Pontos Turisticos \n");
+scanf("%d", &Numerosdepontosturisticos1);
 
-printf("Letra do Estado: %c\n", estado);
-printf("Codigo da Carta: %s\n",codigodacarta);
-printf("Nome da cidade: %s\n", nomedacidade);
-printf("População: %d\n", populacao);
-printf("Area: %f\n", areaemkm2);
-printf("PIB: %f\n", pib);
-printf("Numeros de Pontos Turisticos: %d\n", numerosdepontosturisticos);
+printf("carta 1\n");
+printf("Letra do Estado: %c\n", Estado1);
+printf("Codigo da Carta: %s\n",Codigodacarta1);
+printf("Nome da cidade: %s\n", Nomedacidade1);
+printf("Populacao: %d\n", Populacao1);
+printf("Area em km2: %f\n", Areaemkm1);
+printf("PIB: %f\n", Pib1);
+printf("Numeros de Pontos Turisticos: %d\n", Numerosdepontosturisticos1);
 
+char Estado2;
+char Codigodacarta2[20];
+char Nomedacidade2[20];
+int Populacao2;
+float Areaemkm2;
+float Pib2;
+int Numerosdepontosturisticos2;
 
+printf("Digite a Letra do Estado \n");
+scanf(" %c", &Estado2);
 
+printf("Digite o Codigo da Carta \n");
+scanf("%s", &Codigodacarta2);
 
+printf("Digite o Nome da Cidade \n");
+scanf("%s", &Nomedacidade2);
 
+printf("Digite a Populacao \n");
+scanf("%d",&Populacao2);
 
+printf("Digite area em Km2\n");
+scanf("%f", &Areaemkm2);
 
+printf("Digite o Pib \n");
+scanf("%f", &Pib2);
 
+printf("Digite os Numeros de Pontos Turisticos \n");
+scanf("%d", &Numerosdepontosturisticos2);
 
-
+printf("carta 2\n");
+printf("Letra do Estado: %c\n", Estado2);
+printf("Codigo da Carta: %s\n",Codigodacarta2);
+printf("Nome da cidade: %s\n", Nomedacidade2);
+printf("Populacao: %d\n", Populacao2);
+printf("Area em km2: %f\n", Areaemkm2);
+printf("PIB: %f\n", Pib2);
+printf("Numeros de Pontos Turisticos: %d\n", Numerosdepontosturisticos2);
 
 
 
@@ -60,3 +90,4 @@ printf("Numeros de Pontos Turisticos: %d\n", numerosdepontosturisticos);
     return 0;
 
 }
+
