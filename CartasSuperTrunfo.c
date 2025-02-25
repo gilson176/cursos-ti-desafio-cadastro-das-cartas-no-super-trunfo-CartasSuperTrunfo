@@ -2,8 +2,8 @@
 
 int main(){
 
-    // desafio novato
-    
+    // (desafio novato)
+
 printf("Super Trunfo - paises\n");
 
 char Estado1, Estado2;
