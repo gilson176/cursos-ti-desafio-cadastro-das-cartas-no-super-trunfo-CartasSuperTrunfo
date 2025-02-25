@@ -2,7 +2,7 @@
 
 int main(){
 
-    // desafio aventureiro
+    // desafio novato
     
 printf("Super Trunfo - paises\n");
 
@@ -13,8 +13,7 @@ int Populacao1, Populacao2;
 float Areaemkm1, Areaemkm2;
 float Pib1, Pib2;
 int Numerosdepontosturisticos1, Numerosdepontosturisticos2;
-float Desidadepopulacional1,Desidadepopulacional2;
-float Pibpercapita1, Pibpercapita2;
+
 
 printf("Digite a Letra do Estado \n");
 scanf("%c", &Estado1);
@@ -37,8 +36,7 @@ scanf("%f", &Pib1);
 printf("Digite os Numeros de Pontos Turisticos \n");
 scanf("%d", &Numerosdepontosturisticos1);
 
-Desidadepopulacional1 = (float) (Populacao1 / Areaemkm1);
-Pibpercapita1 =  (float) (Pib1 / Populacao1);
+
 
 printf("carta 1\n");
 printf("Letra do Estado: %c\n", Estado1);
@@ -48,8 +46,6 @@ printf("Populacao: %d\n", Populacao1);
 printf("Area em km2: %f\n", Areaemkm1);
 printf("PIB: %f\n", Pib1);
 printf("Numeros de Pontos Turisticos: %d\n", Numerosdepontosturisticos1);
-printf("Desidade Populacional: %.4f\n",Desidadepopulacional1);
-printf("Pib per Capita: %.4f\n",Pibpercapita1);
 
 
 
@@ -76,8 +72,7 @@ printf("Digite os Numeros de Pontos Turisticos \n");
 scanf("%d", &Numerosdepontosturisticos2);
 
 
-Desidadepopulacional2 = (float) (Populacao2 / Areaemkm2);
-Pibpercapita2 =  (float) (Pib2 / Populacao2);
+
 
 
 printf("carta 2\n");
@@ -88,8 +83,6 @@ printf("Populacao: %d\n", Populacao2);
 printf("Area em km2: %f\n", Areaemkm2);
 printf("PIB: %f\n", Pib1);
 printf("Numeros de Pontos Turisticos: %d\n", Numerosdepontosturisticos2);
-printf("Desidade Populacional: %.4f\n",Desidadepopulacional2);
-printf("Pib per Capita: %.4f\n",Pibpercapita2);
 
 
 
