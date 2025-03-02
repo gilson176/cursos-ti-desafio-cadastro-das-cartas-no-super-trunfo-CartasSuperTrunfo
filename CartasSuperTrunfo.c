@@ -2,7 +2,7 @@
 
 int main(){
 
-    // desafio novato
+    // Desafio novato
 
 printf("Super Trunfo - paises\n");
 

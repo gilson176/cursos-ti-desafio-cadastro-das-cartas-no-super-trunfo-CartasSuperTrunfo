@@ -2,9 +2,9 @@
 
 int main(){
 
-    // Desafio aventureiro
-    
-printf("Super Trunfo - paises\n");
+    // Desafio Mestre
+
+printf("Super Trunfo - paises\n\n");
 
 char Estado1, Estado2;
 char Codigodacarta1[20], Codigodacarta2[20];
@@ -15,6 +15,9 @@ float Pib1, Pib2;
 int Numerosdepontosturisticos1, Numerosdepontosturisticos2;
 float Desidadepopulacional1,Desidadepopulacional2;
 float Pibpercapita1, Pibpercapita2;
+float superpoder1, superpoder2;
+
+
 
 printf("Digite a Letra do Estado \n");
 scanf("%c", &Estado1);
@@ -34,23 +37,27 @@ scanf("%f", &Areaemkm1);
 printf("Digite o Pib \n");
 scanf("%f", &Pib1);
 
-printf("Digite os Numeros de Pontos Turisticos \n");
+printf("Digite os Numeros de Pontos Turisticos\n");
 scanf("%d", &Numerosdepontosturisticos1);
 
-Desidadepopulacional1 = (float) (Populacao1 / Areaemkm1);
-Pibpercapita1 =  (float) (Pib1 / Populacao1);
+Desidadepopulacional1 = (int) (Populacao1 / Areaemkm1);
+Pibpercapita1 =(int)(Pib1 / Populacao1);
 
-printf("carta 1\n");
+superpoder1 = (int) (Populacao1 + Areaemkm1 + Pib1 + Numerosdepontosturisticos1 + Desidadepopulacional1 + Pibpercapita1);
+
+printf("\n\n");
+
+printf("Carta 1\n\n");
 printf("Letra do Estado: %c\n", Estado1);
 printf("Codigo da Carta: %s\n",Codigodacarta1);
 printf("Nome da cidade: %s\n", Nomedacidade1);
 printf("Populacao: %d\n", Populacao1);
-printf("Area em km2: %f\n", Areaemkm1);
-printf("PIB: %f\n", Pib1);
+printf("Area em km2: %.2f\n", Areaemkm1);
+printf("PIB: %.2f\n", Pib1);
 printf("Numeros de Pontos Turisticos: %d\n", Numerosdepontosturisticos1);
-printf("Desidade Populacional: %.4f\n",Desidadepopulacional1);
-printf("Pib per Capita: %.4f\n",Pibpercapita1);
-
+printf("Desidade Populacional: %.2f\n",Desidadepopulacional1);
+printf("Pib per Capita: %.2f\n",Pibpercapita1);
+printf("Super Poder: %.2f\n\n", superpoder1);
 
 
 
@@ -76,20 +83,35 @@ printf("Digite os Numeros de Pontos Turisticos \n");
 scanf("%d", &Numerosdepontosturisticos2);
 
 
-Desidadepopulacional2 = (float) (Populacao2 / Areaemkm2);
-Pibpercapita2 =  (float) (Pib2 / Populacao2);
+Desidadepopulacional2 = (int) (Populacao2 / Areaemkm2);
+Pibpercapita2 = (int) (Pib2 / Populacao2);
 
+superpoder2 = (int) (Populacao2 + Areaemkm2 + Pib2 + Numerosdepontosturisticos2 + Desidadepopulacional2 + Pibpercapita2);
 
-printf("carta 2\n");
+printf("Carta 2\n\n");
 printf("Letra do Estado: %c\n", Estado2);
 printf("Codigo da Carta: %s\n",Codigodacarta2);
 printf("Nome da cidade: %s\n", Nomedacidade2);
 printf("Populacao: %d\n", Populacao2);
-printf("Area em km2: %f\n", Areaemkm2);
-printf("PIB: %f\n", Pib1);
+printf("Area em km2: %.2f\n", Areaemkm2);
+printf("PIB: %.2f\n", Pib1);
 printf("Numeros de Pontos Turisticos: %d\n", Numerosdepontosturisticos2);
-printf("Desidade Populacional: %.4f\n",Desidadepopulacional2);
-printf("Pib per Capita: %.4f\n",Pibpercapita2);
+printf("Desidade Populacional: %.2f\n",Desidadepopulacional2);
+printf("Pib per Capita: %.2f\n",Pibpercapita2);
+printf("Super Poder: %.2f\n\n", superpoder2);
+
+
+printf("Comparacao entre Cartas \n\n");
+
+
+
+printf("Populacao: %d\n",Populacao1 > Populacao2);
+printf("Area Em Km2: %d\n",Areaemkm1 > Areaemkm2);
+printf("Pib: %d\n",Pib1 > Pib2);
+printf("Pontos Turisticos: %d\n",Numerosdepontosturisticos1 > Numerosdepontosturisticos2);
+printf("Densidade Populacional :%d\n",Desidadepopulacional1 > Desidadepopulacional2);
+printf("Pib per Capita: %d\n",Pibpercapita1 > Pibpercapita2);
+printf("Super Poder: %d\n\n",superpoder1 > superpoder2);
 
 
 
