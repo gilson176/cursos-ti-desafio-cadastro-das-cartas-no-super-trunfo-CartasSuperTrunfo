@@ -2,6 +2,8 @@
 
 int main(){
 
+    // desafio novato desenvolvendo a logica
+
 printf("Super Trunfo - paises\n\n");
 
 char Estado1, Estado2;
