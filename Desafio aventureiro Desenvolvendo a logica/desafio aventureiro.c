@@ -4,7 +4,7 @@
 
 int main(){
 
-    // desafio aventureiro
+    // Desafio Aventureiro
 
 printf("Super Trunfo - paises\n\n");
 
